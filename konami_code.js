@@ -16,6 +16,6 @@ function init() {
       index = 0;
     }
   }
-  document.body.addEventListene("keydown", trackKeyDown);
+  document.body.addEventListener("keydown", trackKeyDown);
 
 };
